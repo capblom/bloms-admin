@@ -1,0 +1,100 @@
+.lot-container {
+    grid-column: 2 / 6;
+    grid-row: 2 / 10;
+    display: flex;
+}
+
+
+.upper-main-heading {
+    grid-column: 6 / 11;
+    grid-row: 2 / 4;
+}
+
+.upper-main-heading h1 {
+    color: #ff8c00;
+}
+
+.qds-container {
+    grid-column: 6 / 11;
+    grid-row: 4 / 10;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.qds-container h3,
+h4,
+h5 {
+    margin: 5% 0 0 5%;
+    color: #f0f0f0;
+}
+
+
+
+.qds-container p {
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 16px;
+}
+
+
+.qds-display {
+    width: 45%;
+    height: 60px;
+    display: flex;
+}
+
+.qds-button {
+    width: 20%;
+    transition: transform 0.3s;
+    cursor: pointer;
+    background-color: #999999; /* Use a slightly darker shade of grey */
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.2) 100%);
+}
+
+.qds-button:hover {
+    transform: scale(0.9);
+    /* Reduce the size slightly */
+}
+
+.qds-data {
+    width: 80%;
+    height: auto;
+    margin-left: 5px;
+    background-color: rgba(255, 255, 255, 0.1); /* Adjust the opacity as desired */
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.2) 100%);
+    position: relative;
+
+
+
+}
+
+
+  
+  .qds-data:hover h5 {
+    opacity: 0;
+  }
+  
+  .qds-data:hover p {
+    transform: translateY(-50%);
+    font-size: 2em;
+  }
+
+
+
+#qdsd1 {
+    border-top-right-radius: 40px;
+}
+
+#qdsd2 {
+    border-bottom-right-radius: 40px;
+}
+
+#qdsb1 {
+    border-top-left-radius: 40px;
+}
+
+#qdsb2 {
+    border-bottom-left-radius: 40px;
+}
