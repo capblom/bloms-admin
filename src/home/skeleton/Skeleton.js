@@ -1,9 +1,6 @@
 import React from "react";
 import './Skeleton.css';
-import CustomersBlock from "./CustomersBlock";
 import ResourcesBlock from "./ResourcesBlock";
-import DebtorsBlock from "./DebtorsBlock";
-import DispatchBlock from "./DispatchBlock";
 import HomeBlock from "./HomeBlock";
 import HomeUpperMain from "./HomeUpperMain";
 

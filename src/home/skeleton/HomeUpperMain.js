@@ -1,7 +1,6 @@
 import React from "react";
 import './Skeleton.css';
 import './HomeUpperMain.css';
-import LiveOrderTable from "./LiveOrderTable";
 import CurrentTime from "../../utilities/CurrentTime";
 import QuickDailyStats from "./QuickDailyStats";
 
